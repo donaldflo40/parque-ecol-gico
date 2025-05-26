@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+  }
+  
+  header {
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	background: linear-gradient(to right, #5CA861, #BADFBC);
+	color: white;
+  }
+  
+  .logo-titulo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+  }
+  
+  .logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid white;
+  }
+  
+  nav {
+	margin-top: 15px;
+  }
+  
+  .menu {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+  }
+  
+  .menu li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 8px 15px;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+  }
+  
+  .menu li a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  #contenido {
+	background-image: url("../imagenes/paseo.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 40px;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+	backdrop-filter: brightness(0.8);
+  }
+  
+  #contenido section {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	border-radius: 8px;
+  }
+  
+  #contenido img {
+	width: 100%;
+	max-width: 500px;
+	border-radius: 6px;
+	margin-top: 20px;
+	border: 2px solid #fff;
+  }
+  
+  footer {
+	text-align: center;
+	padding: 15px;
+	background-color: #5CA861;
+	color: white;
+	border-top: solid 2px #4e8b4c;
+	border-radius: 0 0 10px 10px;
+  }
+  
